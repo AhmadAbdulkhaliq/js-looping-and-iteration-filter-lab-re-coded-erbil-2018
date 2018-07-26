@@ -6,7 +6,7 @@ function findMatching (array , name){
   });
 }
 
-function toLowerCase(array,letter){
+function fuzzyMatch (array,letter){
  let lengthOfLetter=letter.length;
   return array.filter(function(drivername){
     let length=letter.length;
