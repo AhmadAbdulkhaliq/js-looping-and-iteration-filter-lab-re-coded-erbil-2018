@@ -14,7 +14,7 @@ function fuzzyMatch (array,letter){
   })
 }
 
-function findMatching (array , name){
+function matchName  (array , name){
   return array.filter(function(drivername){
     return drivername.toUpperCase()===name.toUpperCase();
   });
