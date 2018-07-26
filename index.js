@@ -10,6 +10,6 @@ function toLowerCase(array,letter){
  let lengthOfLetter=letter.length;
   return array.filter(function(drivername){
     let length=letter.length;
-    return drivername.slice(0,length)===letter;
+    return drivername.slice(0,lengthOfLetter)===letter;
   })
 }
